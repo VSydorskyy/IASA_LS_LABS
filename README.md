@@ -1,6 +1,11 @@
 # IASA_LS_LABS
 Codebase for Loaded System labs
 
+## Team (KA-03M)
+- Сидорский
+- Смирнов
+- Колдаев
+
 ## Lab 1 (Docker)
 
 Start docker - `sudo service docker start`
