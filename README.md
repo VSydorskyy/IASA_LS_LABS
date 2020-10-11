@@ -5,3 +5,9 @@ Codebase for Loaded System labs
 
 Start docker - `sudo service docker start`
 Compose docker - `sudo docker-compose up`
+Compose docker with scale - `sudo docker-compose up --scale {server name}=3`
+
+
+location /aip {
+        proxy_pass http://lite_server:3000;
+    }

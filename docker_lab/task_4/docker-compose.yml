@@ -1,23 +1,36 @@
 version: '3'
 
 services:
-    task_3:
+    json_server:
         image: node:latest
         working_dir: /json_servak
         volumes:
-        - ./:/json_servak
+        - ./json_server_folder:/json_servak
         command: bash script_pipe.sh
+        expose: 
+        - 8000
 
+    lite_server:
+        image: node:latest
+        working_dir: /lite_servak
+        volumes:
+        - ./lite_srever_folder:/lite_servak
+        command: bash script_pipe.sh
+        expose:
+        - 3000
+        
     nginx:
         image: nginx
+        volumes:
+        - ./templates:/etc/nginx/templates
         ports:
         - "8080:80"
         environment:
         - NGINX_HOST=0.0.0.0
         - NGINX_PORT=80
-        
         links: 
-        - task_3
+        - json_server
+        - lite_server
        
 
 
