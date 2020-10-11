@@ -10,7 +10,7 @@ server {
     location /json_server/profile {
         proxy_pass http://json_server:8000/profile;
     }
-    location /lite_server {
+    location / {
         proxy_pass http://lite_server:3000;
     }
 }
