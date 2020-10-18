@@ -10,6 +10,18 @@ Codebase for Loaded System labs
 
 Start docker - `sudo service docker start`
 
-Compose docker - `sudo docker-compose up`
-
-Compose docker with scale - `sudo docker-compose up --scale {server name}=3`
+task_1 :
+- `cd docker_lab/task_1`
+- `sudo docker-compose up`
+task_2 :
+- `cd docker_lab/task_2`
+- `sudo docker-compose up`
+task_3 :
+- `cd docker_lab/task_3`
+- `sudo docker-compose up`
+task_4 :
+- `cd docker_lab/task_4`
+- `sudo docker-compose up --scale json_server=3 --scale lite_server=3`
+task_5 :
+- `cd docker_lab/task_1`
+- `cat resulst.txt`
