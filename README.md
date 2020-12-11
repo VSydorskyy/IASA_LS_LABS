@@ -29,3 +29,10 @@ task_4 :
 task_5 :
 - `cd docker_lab/task_1`
 - `cat resulst.txt`
+
+## Lab 4 (Hadoop)
+
+- Hadoop.pdf - step by step protocol
+- ProcessUnits.java - fixed Java code
+- result.txt - results of requests (step 10)
+- sample.txt - input data for requests 
