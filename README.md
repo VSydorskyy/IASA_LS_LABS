@@ -30,6 +30,10 @@ task_5 :
 - `cd docker_lab/task_1`
 - `cat resulst.txt`
 
+## Lab 2 (Jmeter)
+
+Koldaev opishi
+
 ## Lab 4 (Hadoop)
 
 - Hadoop.pdf - step by step protocol
