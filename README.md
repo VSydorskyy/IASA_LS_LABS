@@ -43,3 +43,13 @@ task_5 :
 - ProcessUnits.java - fixed Java code
 - result.txt - results of requests (step 10)
 - sample.txt - input data for requests 
+
+## Lab 5 (Spark)
+
+1. Correctly install spark (https://phoenixnap.com/kb/install-spark-on-ubuntu)
+2. start-master.sh --webui-port 8001
+3. apt install python3-pip
+4. pip3 install pyspark, geopy, faker, numpy
+5. download London.csv
+6. spark-submit data_generation.py
+7. spark-submit main.py
