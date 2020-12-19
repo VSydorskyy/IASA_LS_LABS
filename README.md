@@ -37,6 +37,17 @@ task_5 :
 - task3.jmx -> aggregate3.csv
 - task4.jmx -> aggregate4.csv
 
+## Lab 3 (Mongo)
+
+- docker-compose up -d
+- sudo sh init_rs.sh
+- (wait several seconds)
+- docker-compose exec router01 sh -c “mongo < .scripts/init-router.js”
+- run all generate_data.ipynb
+- cp mongo_lab/rides.csv mongo_lab/data/
+- sudo sh import_and_query_data.sh
+- docker-compose down -v --rmi all --remove-orphans
+
 ## Lab 4 (Hadoop)
 
 - Hadoop.pdf - step by step protocol

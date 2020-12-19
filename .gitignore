@@ -2,3 +2,6 @@
 spark/data.txt
 spark/data_sec.txt
 spark/London.csv
+mongo_lab/data
+mongo_lab/rides.csv
+mongo_lab/London postcodes.csv
